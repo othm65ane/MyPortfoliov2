@@ -26,7 +26,11 @@ export default function Footer() {
           >
             <div className=" text-xs text-center order-1 sm:order-none  ">© {new Date().getFullYear()} Othmane Charfaoui. All rights reserved.</div>
             <div className=" text-xs text-center ">Made with <span className="text-[10px]">🖤</span> and <span className="text-[10px]">☕️</span> by <a href="#">Othmane</a></div>
-
+            <div className="flex">
+              <a href="https://github.com/othm65ane" className="ml-2 text-2xl"><FaGithub /></a>
+              <a href="" className="ml-2 text-2xl"><FaInstagram /></a>
+              <a href="https://www.linkedin.com/in/othmane-charfaoui-3b2511284/" className="ml-2 text-2xl"><FaLinkedin /></a>
+            </div>
           </motion.div>
         </section>
 

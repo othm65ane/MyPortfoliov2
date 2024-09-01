@@ -12,7 +12,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-    <div className=" w-[150vh] ml-[25vh] mt-[20px]">
+    <div className=" lg:w-[150vh] lg:ml-[25vh] lg:mt-[20px]">
   <NavBar />
   <Routes location={location} key={location.pathname} >
   <Route index element={<HeroSection />}/>

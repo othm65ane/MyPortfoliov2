@@ -21,18 +21,18 @@ import Marquee  from "react-fast-marquee";
 
   return (
     <div >
-      <div className=" h-[100vh] flex justify-center items-center flex-col ">
+      <div className=" h-[105vh] lg:h-[100vh] flex justify-center items-center flex-col ">
       <p className="text-xl font-light">Othmane Charfaoui</p>
         <motion.h1
         initial = {{opacity : 0}}
         whileInView={{opacity : 1}}
         transition={{duration : 1.2}}
-        className="text-8xl font-bold">Ui Desiegner , </motion.h1>
+        className="lg:text-8xl text-6xl font-bold">Ui Desiegner  </motion.h1>
         <motion.h1 
          initial = {{opacity : 0}}
          whileInView={{opacity : 1}}
          transition={{duration : 1.2}}
-        className="ml-[250px] text-8xl font-bold bg-black text-white ">Developer .</motion.h1>
+        className="lg:ml-[250px] lg:text-8xl text-6xl font-bold bg-black text-white ">Developer .</motion.h1>
         <img src={mouse}
         width={25}
         className="mt-[200px]"
@@ -43,12 +43,12 @@ import Marquee  from "react-fast-marquee";
        whileInView={{y : 0 , opacity : 1}}
        transition={{duration : 0.8}}
        viewport={{once : true}}
-      className="h-[105vh] flex justify-center items-center">
+      className="lg:h-[105vh] h-[60vh] flex justify-center items-center">
         <img src={P} 
         initial = {{opacity : 0}}
         whileInView={{opacity : 1}}
         transition={{duration : 1.2}}
-        width={700}
+        width={650}
         alt="" />
       </motion.div>
       <div className="h-[250px]">

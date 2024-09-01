@@ -103,13 +103,13 @@ const projects = () => {
     transition={{duration : 0.7}}
     viewport={{once : true}}
 
-    className='w-full lg:w-1/4'>
+    className='w-full lg:w-1/4 '>
     <img 
     src={projects.image} 
     alt={projects.title}
     height={200}
     width={250}
-    className='mb-6 rounded'
+    className='mb-6 rounded ml-[15px]'
     />
     </motion.div>
     <motion.div
@@ -117,7 +117,7 @@ const projects = () => {
     whileInView={{opacity : 1 , x : 0}}
     transition={{duration : 0.7}}
     viewport={{once : true}}
-    className='w-full max-w-xl lg:3/4'>
+    className='w-full max-w-xl lg:3/4 ml-[15px]'>
         <h6 className='mb-2 text-2xl flex justify-between '>{projects.title} <a href={projects.src}><FaGithub className="text-xl"/></a></h6>
         <h6 className='mb-4 text-neutral-400'>{projects.description}</h6>
         <div className="flex">
