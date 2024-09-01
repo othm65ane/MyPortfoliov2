@@ -14,10 +14,24 @@ import projects2 from "../assets/Projects/projects2.png"
 import projects3 from "../assets/Projects/projects3.jpg"
 import projects4 from "../assets/Projects/projects4.png"
 import projects5 from "../assets/Projects/projects5.jpg"
+import projects6 from "../assets/Projects/projects6.jpg"
 import { FaGithub } from "react-icons/fa6";
 
 const projects = () => {
    const PROJECTS = [
+    {
+      title: "Dinner with Lahcen",
+      image: projects6,
+      description:
+       "portfolio website involves showcasing my skills, experiences, and unique attributes in a way that resonates with your target audience" ,
+      technologies1: P2,
+      technologies2: P3,
+      technologies3: P1,
+      technologies4: P4,
+      technologies5: P5,
+      technologies6: P6,
+      src : "https://github.com/othm65ane/react-P",
+    },
     {
       title: "Portfolio Website",
       image: projects1,
